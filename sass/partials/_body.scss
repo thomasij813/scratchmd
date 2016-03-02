@@ -1,0 +1,24 @@
+@import '_variables';
+
+.body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100vh - 160px);
+  @media screen and (max-width: $break-small) {
+    flex-direction: column;
+  }
+}
+
+.preview, .userForm {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.preview {
+  border-right: 1px solid #ddd;
+  @media screen and (max-width: $break-small) {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+}
