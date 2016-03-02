@@ -2,7 +2,7 @@
   "name": "fcc-md-preview",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "",
   "scripts": {
     "build-css": "node-sass --include-path --quiet sass/style.scss client/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""

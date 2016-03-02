@@ -12,8 +12,8 @@ class App extends React.Component {
 class UserForm extends React.Component {
   render() {
     return (
-      <div className="preview">
-        <p>This is the UserForm component.</p>
+      <div className="userForm">
+        <textarea autoFocus></textarea>
       </div>
     )
   }
@@ -22,7 +22,7 @@ class UserForm extends React.Component {
 class Preview extends React.Component {
   render() {
     return (
-      <div className="userForm">
+      <div className="preview">
         <p>This is the Preview component.</p>
       </div>
     )

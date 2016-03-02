@@ -15,10 +15,20 @@
   padding: 1rem;
 }
 
-.preview {
+.userForm {
   border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
   @media screen and (max-width: $break-small) {
     border-right: none;
     border-bottom: 1px solid #ddd;
   }
+}
+
+.userForm textarea {
+  flex-grow: 1;
+  outline: none;
+  resize: none;
+  border: none;
+  width: 100%;
 }
